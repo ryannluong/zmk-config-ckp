@@ -59,7 +59,7 @@
 &trans     &kp HOME  &kp UP    &kp END    &kp PAGE_UP      &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUM  &trans   &trans   &kp PSCRN
 &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN    &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans      &trans   &kp INS
 &trans     &trans    &trans    &trans     &trans           &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans      &trans
-           &kp F13   &kp F14   &kp F15    &kp KP_NUMBER_0  &trans  &trans  &mo 3            &trans
+           &trans    &trans    &trans     &kp KP_NUMBER_0  &trans  &trans  &mo 3            &trans
             >;
         };
 
@@ -77,7 +77,7 @@
 &trans      &out OUT_BLE  &out OUT_USB  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &sys_reset
 &trans      &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
 &trans      &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            &trans        &trans        &trans        &tog 1        &trans  &trans  &trans  &trans
+            &kp F13       &kp F14       &kp F15       &tog 1        &trans  &trans  &trans  &trans
             >;
         };
     };
